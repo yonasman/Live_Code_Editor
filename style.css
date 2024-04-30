@@ -5,6 +5,7 @@ body {
 h1 {
     margin-bottom: 10px;
     color: #fff;
+    border: 2px solid rgb(60, 200, 163);
 }
 textarea {
     width: 32%;
@@ -16,6 +17,7 @@ textarea {
     outline: none;
     font-family: Courier, sans-serif;
     font-size: 14px;
+    border: 5px solid rgb(60, 200, 163);
 }
 iframe {
     bottom: 0;
@@ -23,5 +25,14 @@ iframe {
     width: 100%;
     height: 35em;
     background-color: #fff;
+    border: 5px solid rgb(60, 200, 163);
 }
 /* media query */
+@media (max-width:760px) {
+    textarea {
+        width: 40vw;
+    }
+    #js {
+        width: 84vw;
+    }
+}
